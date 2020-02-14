@@ -7,16 +7,14 @@ const PlayerCard = props => {
         <div>
             {props.playerData.map(player => (
                 <div>
-                    <p>{player.name}</p>
-                    <p>{player.country}</p>
-                    <p>{player.searches}</p>
+                    <p>Name: {player.name}</p>
+                    <p>Country: {player.country}</p>
+                    <p>Searches: {player.searches}</p>
                 </div>
             ))}
-
-
         </div>
-        
-        
+
+
         // <div>
         //     <p>{props.playerData.name}</p>
         //     <p>{props.playerData.country}</p>

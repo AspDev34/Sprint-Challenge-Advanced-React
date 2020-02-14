@@ -2,6 +2,11 @@ import React from 'react';
 import './App.css';
 import axios from 'axios';
 import PlayerCard from './components/PlayerCard';
+import DarkButton from './components/DarkButton';
+
+const centerContent = {
+  display: 'flex',
+};
 
 class App extends React.Component {
 
@@ -32,10 +37,15 @@ class App extends React.Component {
 
     return (
 
-      <div>
+      <div style={centerContent}>
+
+        <DarkButton />
+
         <PlayerCard playerData={this.state.player} />
-        hello v
+        
+        
       </div>
+      
     );
   }
 }
