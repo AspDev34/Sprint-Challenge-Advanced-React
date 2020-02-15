@@ -9,10 +9,3 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-test('testing for text', () => {
-  const { getByText } = render(<App />);
-
-  const fNameField = getByText(/Country/i);
-
-  expect(fNameField).toBeInTheDocument();
-});

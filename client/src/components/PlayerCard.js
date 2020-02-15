@@ -5,14 +5,16 @@ const PlayerCard = props => {
     return (
 
         <div>
-            {props.playerData.map(player => (
+            {props.playerData.map(player => 
                 <div>
                     <p>Name: {player.name}</p>
                     <p>Country: {player.country}</p>
                     <p>Searches: {player.searches}</p>
                 </div>
-            ))}
+            )}
         </div>
+
+        
 
 
         // <div>
