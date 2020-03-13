@@ -4,8 +4,9 @@ const PlayerCard = props => {
 
     return (
 
-        <div>
+        <div className='card-style'>
             {props.playerData.map(player => 
+
                 <div>
                     <p>Name: {player.name}</p>
                     <p>Country: {player.country}</p>

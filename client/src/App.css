@@ -37,3 +37,8 @@
   background-color: #313843;
 
 }
+
+.card-style {
+  display: flex;
+  flex-direction: column;
+}
